@@ -31,6 +31,9 @@ The following dependencies will be installed:
 
 ## Console Outputs:
 
+### Tweet Example
+<img width="597" alt="Screenshot 2022-04-25 at 10 56 07" src="https://user-images.githubusercontent.com/52892685/165056903-5ce6cbc4-28ef-4c2b-a8b6-7b073652387e.png">
+
 ### New Tweets
 ````
 Hrc20WhalePost roebou$ node hrc20TokenGetLatestTxns.js 
