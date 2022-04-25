@@ -13,19 +13,21 @@ Node js project to post to twitter when HRC20 token transactions exceeds a speci
 
 6. Extract zip file and run "npm install" from the root directory of the unzipped folder.
 The following dependencies will be installed:
-`"node-fetch": "^2.6.7"`, `"twitter-api-v2": "^1.12.0"`
+
+- `"node-fetch": "^2.6.7"`
+- `"twitter-api-v2": "^1.12.0"`
 
 7. Replace the values in the config.js for the following fields:
-    - appKey - Retrieved from twitter developer account
-    - appSecret - Retrieved from twitter developer account
-    - accessToken - Retrieved from twitter developer account
-    - accessSecret - Retrieved from twitter developer account
-    - hrc20Name - Update HRC20's Token Symbol. You can retrieve token information at https://explorer.htmlcoin.com/tokens/search. Example - Codex
-    - hrc20Symbol - Update HRC20's Token Symbol. You can retrieve token information at https://explorer.htmlcoin.com/tokens/search. Example - CDEX
-    - messageIcons - Add icons that will be randomized for each tweet. Add more from https://getemoji.com/ .
-    - minimumTxnAmount - Update minimum transaction value to trigger alert.
+    - `appKey` - Retrieved from twitter developer account
+    - `appSecret` - Retrieved from twitter developer account
+    - `accessToken` - Retrieved from twitter developer account
+    - `accessSecret` - Retrieved from twitter developer account
+    - `hrc20Name` - Update HRC20's Token Symbol. You can retrieve token information at https://explorer.htmlcoin.com/tokens/search. Example - Codex
+    - `hrc20Symbol` - Update HRC20's Token Symbol. You can retrieve token information at https://explorer.htmlcoin.com/tokens/search. Example - CDEX
+    - `messageIcons` - Add icons that will be randomized for each tweet. Add more from https://getemoji.com/ .
+    - `minimumTxnAmount` - Update minimum transaction value to trigger alert.
 
-8. Run "node hrc20TokenGetLatestTxns.js" from the root directory of the unzipped folder.
+8. Run `node hrc20TokenGetLatestTxns.js` from the root directory of the unzipped folder.
 
 ## Console Outputs:
 
